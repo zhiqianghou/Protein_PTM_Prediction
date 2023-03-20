@@ -6,7 +6,18 @@ This code predicts potential post-translational modifications (PTMs) on lysine r
 * Python 3
 * requests module
 * matplotlib module
-* NetPhos (http://www.cbs.dtu.dk/cgi-bin/webface2.fcgi)
 * UniProt (https://www.uniprot.org/)
 
 ## Usage
+1. Download the code and Download the code and navigate to the directory containing the code.
+2. Update the UniProt accession number of the POI (Protein of Interest)
+3. Run the code: python PTM_on_K_pred.py
+4. The code will output a list of potential lysine PTM sites and plot the tau protein sequence highlighting these sites.
+
+## Output
+
+The code will output the following:
+
+* A list of potential lysine PTM sites in the tau protein.
+* A plot of the tau protein sequence with lysine residues highlighted in black and potential PTM sites highlighted in red.
+
